@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="407dp"
+        app:srcCompat="@drawable/bank" />
+
+    <Button
+        android:id="@+id/users_Data"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Users Data"
+        app:backgroundTint="@android:color/holo_orange_dark" />
+
+    <Button
+        android:id="@+id/trans"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:text="Transactions"
+        app:backgroundTint="@android:color/holo_orange_dark" />
+</LinearLayout>
